@@ -21,6 +21,6 @@ head(data)
 plot(data)
 # Outlier for MABSE due to exchange rate intervention 2011
 
-model <- lm(CPI ~ ., data = data)
-summary(model)
+model1 <- lm(CPI ~ ., data = data)
+summary(model1)
 
