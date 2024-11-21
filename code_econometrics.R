@@ -24,3 +24,5 @@ plot(data)
 model1 <- lm(CPI ~ ., data = data)
 summary(model1)
 
+model2 <- lm(CPI ~ IR, data = data)
+summary(model2)
