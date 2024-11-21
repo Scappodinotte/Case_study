@@ -5,7 +5,8 @@ library(leaps)
 library(Matrix)
 library(glmnet)
 library(car)
-
+library(usethis)
+use_github()
 
 # Delete all objects in the memory
 rm(list=ls())
