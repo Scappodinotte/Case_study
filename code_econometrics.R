@@ -26,3 +26,5 @@ summary(model1)
 
 model2 <- lm(CPI ~ IR, data = data)
 summary(model2)
+
+# prova
